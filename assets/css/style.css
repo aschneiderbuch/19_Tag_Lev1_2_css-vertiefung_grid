@@ -28,6 +28,7 @@
 
 
 main{
+    
     padding: 10px;
     height: 150px;
     display: grid;
@@ -49,6 +50,9 @@ main{
 
 }
 
+section {
+    border-radius: 10px;
+}
 
 .section1{
     grid-area: red;
