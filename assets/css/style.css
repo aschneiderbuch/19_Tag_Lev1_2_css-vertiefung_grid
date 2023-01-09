@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ********* Section farbig ****** */
+
+.section1{
+    background-color: red;
+}
+
+
+.section2{
+    background-color: blue;
+}
+.section3{
+    background-color: green;
+}
+
+.sectio4{
+    background-color: purple;
+}
+
+.section5{
+    background-color: yellow;
+}
+
+
+main{
+    display: grid;
+    
+}
