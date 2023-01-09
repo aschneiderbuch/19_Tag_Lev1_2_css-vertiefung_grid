@@ -18,7 +18,7 @@
     background-color: green;
 }
 
-.sectio4{
+.section4{
     background-color: purple;
 }
 
@@ -28,6 +28,50 @@
 
 
 main{
+    padding: 10px;
+    height: 150px;
     display: grid;
+               /* * 4 Spalten */
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+                /* * 3 Zeilen */
+    grid-template-rows: 1fr 1fr 1fr;
+
+    row-gap: 10px;
+    column-gap: 10px;
+
+    /* * Area/Matrix Aufteilung */
+    grid-template-areas:
+  " red red blue blue"
+  "green purple purple purple"
+  "yellow yellow yellow yellow"
+
+  
+
+}
+
+
+.section1{
+    grid-area: red;
+
+}
+
+.section2{
+    grid-area: blue;
+
+}
+
+.section3{
+    grid-area: green;
+
+}   
+
+.section4{
+    grid-area: purple;
+
+}
+
+.section5{
+    grid-area: yellow;
     
+
 }
